@@ -1,0 +1,6 @@
+services:
+  dev:
+    build:
+      context: .
+    volumes:
+      - ./blazingmq:/root/blazingmq 
